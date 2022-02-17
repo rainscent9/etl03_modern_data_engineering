@@ -548,18 +548,13 @@
       <name>C:\Users\simub\switchdrive\Private\HS21\ETL03 Modern Data Engineering\Github\etl03_modern_data_engineering\exam 1\data\x28_XML_Job_Files</name>
       <filemask>x28_jobs_.*\.xml</filemask>
       <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-      <name/>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
+      <file_required>Y</file_required>
       <include_subfolders>N</include_subfolders>
     </file>
     <fields>
       <field>
         <name>date</name>
-        <xpath>../date</xpath>
+        <xpath>../../date</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>None</type>
@@ -574,7 +569,7 @@
       </field>
       <field>
         <name>id</name>
-        <xpath>job/id</xpath>
+        <xpath>id</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -589,7 +584,7 @@
       </field>
       <field>
         <name>title</name>
-        <xpath>job/title</xpath>
+        <xpath>title</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -604,7 +599,7 @@
       </field>
       <field>
         <name>duplicategroup</name>
-        <xpath>job/duplicategroup</xpath>
+        <xpath>duplicategroup</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -619,7 +614,7 @@
       </field>
       <field>
         <name>deleted</name>
-        <xpath>job/deleted</xpath>
+        <xpath>deleted</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -634,7 +629,7 @@
       </field>
       <field>
         <name>origin</name>
-        <xpath>job/origin</xpath>
+        <xpath>origin</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -649,7 +644,7 @@
       </field>
       <field>
         <name>location</name>
-        <xpath>job/location</xpath>
+        <xpath>location</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -664,7 +659,7 @@
       </field>
       <field>
         <name>homeoffice</name>
-        <xpath>job/homeoffice</xpath>
+        <xpath>homeoffice</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -679,7 +674,7 @@
       </field>
       <field>
         <name>temporary</name>
-        <xpath>job/temporary</xpath>
+        <xpath>temporary</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -694,7 +689,7 @@
       </field>
       <field>
         <name>created</name>
-        <xpath>job/created</xpath>
+        <xpath>created</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -709,7 +704,7 @@
       </field>
       <field>
         <name>updated</name>
-        <xpath>job/updated</xpath>
+        <xpath>updated</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -724,7 +719,7 @@
       </field>
       <field>
         <name>firstseen</name>
-        <xpath>job/firstseen</xpath>
+        <xpath>firstseen</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -739,7 +734,7 @@
       </field>
       <field>
         <name>lastseen</name>
-        <xpath>job/lastseen</xpath>
+        <xpath>lastseen</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -754,7 +749,7 @@
       </field>
       <field>
         <name>language</name>
-        <xpath>job/language</xpath>
+        <xpath>language</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -769,7 +764,7 @@
       </field>
       <field>
         <name>qualityscore</name>
-        <xpath>job/qualityscore</xpath>
+        <xpath>qualityscore</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -784,7 +779,7 @@
       </field>
       <field>
         <name>id</name>
-        <xpath>job/company/id</xpath>
+        <xpath>company/id</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -799,7 +794,7 @@
       </field>
       <field>
         <name>name</name>
-        <xpath>job/company/name</xpath>
+        <xpath>company/name</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -814,7 +809,7 @@
       </field>
       <field>
         <name>url</name>
-        <xpath>job/company/url</xpath>
+        <xpath>company/url</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -829,7 +824,7 @@
       </field>
       <field>
         <name>uid</name>
-        <xpath>job/company/uid</xpath>
+        <xpath>company/uid</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -844,7 +839,7 @@
       </field>
       <field>
         <name>crn</name>
-        <xpath>job/company/crn</xpath>
+        <xpath>company/crn</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -859,7 +854,7 @@
       </field>
       <field>
         <name>recruitmentagency</name>
-        <xpath>job/company/recruitmentagency</xpath>
+        <xpath>company/recruitmentagency</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -874,7 +869,7 @@
       </field>
       <field>
         <name>id</name>
-        <xpath>job/company/size/id</xpath>
+        <xpath>company/size/id</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -889,7 +884,7 @@
       </field>
       <field>
         <name>name</name>
-        <xpath>job/company/size/name</xpath>
+        <xpath>company/size/name</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -904,7 +899,7 @@
       </field>
       <field>
         <name>minumum</name>
-        <xpath>job/company/size/employees/minumum</xpath>
+        <xpath>company/size/employees/minumum</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -919,7 +914,7 @@
       </field>
       <field>
         <name>maximum</name>
-        <xpath>job/company/size/employees/maximum</xpath>
+        <xpath>company/size/employees/maximum</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -934,7 +929,7 @@
       </field>
       <field>
         <name>adresses</name>
-        <xpath>job/company/adresses</xpath>
+        <xpath>company/adresses</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -949,7 +944,7 @@
       </field>
       <field>
         <name>type</name>
-        <xpath>job/company/metadata/data/type</xpath>
+        <xpath>company/metadata/data/type</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -964,7 +959,7 @@
       </field>
       <field>
         <name>id</name>
-        <xpath>job/company/metadata/data/id</xpath>
+        <xpath>company/metadata/data/id</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -979,7 +974,7 @@
       </field>
       <field>
         <name>name</name>
-        <xpath>job/company/metadata/data/name</xpath>
+        <xpath>company/metadata/data/name</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -994,7 +989,7 @@
       </field>
       <field>
         <name>metadata</name>
-        <xpath>job/company/metadata</xpath>
+        <xpath>company/metadata</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1009,7 +1004,7 @@
       </field>
       <field>
         <name>locations</name>
-        <xpath>job/locations</xpath>
+        <xpath>locations</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1024,7 +1019,7 @@
       </field>
       <field>
         <name>minumum</name>
-        <xpath>job/workquota/minumum</xpath>
+        <xpath>workquota/minumum</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -1039,7 +1034,7 @@
       </field>
       <field>
         <name>maximum</name>
-        <xpath>job/workquota/maximum</xpath>
+        <xpath>workquota/maximum</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -1054,7 +1049,7 @@
       </field>
       <field>
         <name>positions</name>
-        <xpath>job/positions</xpath>
+        <xpath>positions</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1069,7 +1064,7 @@
       </field>
       <field>
         <name>educations</name>
-        <xpath>job/educations</xpath>
+        <xpath>educations</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1084,7 +1079,7 @@
       </field>
       <field>
         <name>parameters</name>
-        <xpath>job/parameters</xpath>
+        <xpath>parameters</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1099,7 +1094,7 @@
       </field>
       <field>
         <name>type</name>
-        <xpath>job/metadata/data/type</xpath>
+        <xpath>metadata/data/type</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1114,10 +1109,10 @@
       </field>
       <field>
         <name>id</name>
-        <xpath>job/metadata/data/id</xpath>
+        <xpath>metadata/data/id</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
-        <type>Integer</type>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
@@ -1129,7 +1124,7 @@
       </field>
       <field>
         <name>name</name>
-        <xpath>job/metadata/data/name</xpath>
+        <xpath>metadata/data/name</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1144,7 +1139,7 @@
       </field>
       <field>
         <name>source</name>
-        <xpath>job/metadata/data/source</xpath>
+        <xpath>metadata/data/source</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1159,7 +1154,7 @@
       </field>
       <field>
         <name>phrase</name>
-        <xpath>job/metadata/data/phrase</xpath>
+        <xpath>metadata/data/phrase</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1174,7 +1169,7 @@
       </field>
       <field>
         <name>level</name>
-        <xpath>job/metadata/data/level</xpath>
+        <xpath>metadata/data/level</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1189,7 +1184,7 @@
       </field>
       <field>
         <name>metadata</name>
-        <xpath>job/metadata</xpath>
+        <xpath>metadata</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1204,7 +1199,7 @@
       </field>
       <field>
         <name>position</name>
-        <xpath>job/positions/position</xpath>
+        <xpath>positions/position</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1219,7 +1214,7 @@
       </field>
       <field>
         <name>education</name>
-        <xpath>job/educations/education</xpath>
+        <xpath>educations/education</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1234,7 +1229,7 @@
       </field>
       <field>
         <name>country</name>
-        <xpath>job/locations/location/country</xpath>
+        <xpath>locations/location/country</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1249,7 +1244,7 @@
       </field>
       <field>
         <name>province</name>
-        <xpath>job/locations/location/province</xpath>
+        <xpath>locations/location/province</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1264,7 +1259,7 @@
       </field>
       <field>
         <name>district</name>
-        <xpath>job/locations/location/district</xpath>
+        <xpath>locations/location/district</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -1279,7 +1274,7 @@
       </field>
       <field>
         <name>postalcode</name>
-        <xpath>job/locations/location/postalcodes/postalcode</xpath>
+        <xpath>locations/location/postalcodes/postalcode</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>Integer</type>
@@ -1294,7 +1289,7 @@
       </field>
       <field>
         <name>postalcodes</name>
-        <xpath>job/locations/location/postalcodes</xpath>
+        <xpath>locations/location/postalcodes</xpath>
         <element_type>node</element_type>
         <result_type>valueof</result_type>
         <type>String</type>
@@ -1308,8 +1303,8 @@
         <repeat>N</repeat>
       </field>
     </fields>
-    <limit>0</limit>
-    <loopxpath>/response/jobs</loopxpath>
+    <limit>100000000000</limit>
+    <loopxpath>/response/jobs/job</loopxpath>
     <IsInFields>N</IsInFields>
     <IsAFile>N</IsAFile>
     <XmlField/>
@@ -1332,131 +1327,6 @@
     </remotesteps>
     <GUI>
       <xloc>32</xloc>
-      <yloc>192</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>to db stage</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>eth03_stage_local</connection>
-    <schema/>
-    <table>jobs</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>848</xloc>
-      <yloc>192</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Strings cut</name>
-    <type>StringCut</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>metadata_1</in_stream_name>
-        <out_stream_name>metadata_1_new</out_stream_name>
-        <cut_from>0</cut_from>
-        <cut_to>1000</cut_to>
-      </field>
-      <field>
-        <in_stream_name>locations</in_stream_name>
-        <out_stream_name>locations_new</out_stream_name>
-        <cut_from>0</cut_from>
-        <cut_to>1000</cut_to>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>416</xloc>
-      <yloc>192</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort rows</name>
-    <type>SortRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory/>
-    <compress>N</compress>
-    <compress_variable/>
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>id</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>208</xloc>
       <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1681,12 +1551,26 @@
         <name>locations_new</name>
         <rename/>
       </field>
+      <field>
+        <name>postalcodes_new</name>
+        <rename/>
+      </field>
+      <field>
+        <name>addresses_new</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
       <remove>
         <name>metadata_1</name>
       </remove>
       <remove>
         <name>locations</name>
+      </remove>
+      <remove>
+        <name>postalcodes</name>
+      </remove>
+      <remove>
+        <name>adresses</name>
       </remove>
       <meta>
         <name>metadata_1_new</name>
@@ -1722,6 +1606,40 @@
         <currency_symbol/>
         <storage_type/>
       </meta>
+      <meta>
+        <name>postalcodes_new</name>
+        <rename>postalcodes</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>addresses_new</name>
+        <rename>adresses</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -1733,6 +1651,143 @@
     </remotesteps>
     <GUI>
       <xloc>640</xloc>
+      <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>id</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>208</xloc>
+      <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Strings cut</name>
+    <type>StringCut</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>metadata_1</in_stream_name>
+        <out_stream_name>metadata_1_new</out_stream_name>
+        <cut_from>0</cut_from>
+        <cut_to>100</cut_to>
+      </field>
+      <field>
+        <in_stream_name>locations</in_stream_name>
+        <out_stream_name>locations_new</out_stream_name>
+        <cut_from>0</cut_from>
+        <cut_to>100</cut_to>
+      </field>
+      <field>
+        <in_stream_name>postalcodes</in_stream_name>
+        <out_stream_name>postalcodes_new</out_stream_name>
+        <cut_from>0</cut_from>
+        <cut_to>100</cut_to>
+      </field>
+      <field>
+        <in_stream_name>adresses</in_stream_name>
+        <out_stream_name>addresses_new</out_stream_name>
+        <cut_from>0</cut_from>
+        <cut_to>100</cut_to>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>to db stage</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>eth03_stage_local</connection>
+    <schema/>
+    <table>jobs</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>848</xloc>
       <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
