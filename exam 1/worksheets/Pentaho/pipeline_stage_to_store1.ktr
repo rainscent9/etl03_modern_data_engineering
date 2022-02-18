@@ -434,6 +434,114 @@
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
+    <notepad>
+      <note>Sink</note>
+      <xloc>1360</xloc>
+      <yloc>480</yloc>
+      <width>49</width>
+      <heigth>39</heigth>
+      <fontname>Calibri</fontname>
+      <fontsize>14</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Read from
+database</note>
+      <xloc>48</xloc>
+      <yloc>0</yloc>
+      <width>107</width>
+      <heigth>68</heigth>
+      <fontname>Calibri</fontname>
+      <fontsize>14</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Calculate time job open in weeks</note>
+      <xloc>1200</xloc>
+      <yloc>352</yloc>
+      <width>313</width>
+      <heigth>39</heigth>
+      <fontname>Calibri</fontname>
+      <fontsize>14</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Set data
+types</note>
+      <xloc>224</xloc>
+      <yloc>0</yloc>
+      <width>88</width>
+      <heigth>68</heigth>
+      <fontname>Calibri</fontname>
+      <fontsize>14</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Sort ascending
+for join</note>
+      <xloc>352</xloc>
+      <yloc>0</yloc>
+      <width>147</width>
+      <heigth>68</heigth>
+      <fontname>Calibri</fontname>
+      <fontsize>14</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
   </notepads>
   <connection>
     <name>etl03_stage_local</name>
@@ -677,7 +785,7 @@
     </remotesteps>
     <GUI>
       <xloc>1136</xloc>
-      <yloc>432</yloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -818,7 +926,7 @@
     </remotesteps>
     <GUI>
       <xloc>1040</xloc>
-      <yloc>640</yloc>
+      <yloc>480</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2112,7 +2220,7 @@
     </remotesteps>
     <GUI>
       <xloc>1024</xloc>
-      <yloc>432</yloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2319,7 +2427,7 @@
     </remotesteps>
     <GUI>
       <xloc>896</xloc>
-      <yloc>432</yloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3917,7 +4025,7 @@
     </remotesteps>
     <GUI>
       <xloc>1232</xloc>
-      <yloc>640</yloc>
+      <yloc>480</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

@@ -1326,8 +1326,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>32</xloc>
-      <yloc>192</yloc>
+      <xloc>256</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1345,219 +1345,165 @@
     <fields>
       <field>
         <name>date</name>
-        <rename/>
       </field>
       <field>
         <name>id</name>
-        <rename/>
       </field>
       <field>
         <name>title</name>
-        <rename/>
       </field>
       <field>
         <name>duplicategroup</name>
-        <rename/>
       </field>
       <field>
         <name>deleted</name>
-        <rename/>
       </field>
       <field>
         <name>origin</name>
-        <rename/>
       </field>
       <field>
         <name>location</name>
-        <rename/>
       </field>
       <field>
         <name>homeoffice</name>
-        <rename/>
       </field>
       <field>
         <name>temporary</name>
-        <rename/>
       </field>
       <field>
         <name>created</name>
-        <rename/>
       </field>
       <field>
         <name>updated</name>
-        <rename/>
       </field>
       <field>
         <name>firstseen</name>
-        <rename/>
       </field>
       <field>
         <name>lastseen</name>
-        <rename/>
       </field>
       <field>
         <name>language</name>
-        <rename/>
       </field>
       <field>
         <name>qualityscore</name>
-        <rename/>
       </field>
       <field>
         <name>id_1</name>
-        <rename/>
       </field>
       <field>
         <name>name</name>
-        <rename/>
       </field>
       <field>
         <name>url</name>
-        <rename/>
       </field>
       <field>
         <name>uid</name>
-        <rename/>
       </field>
       <field>
         <name>crn</name>
-        <rename/>
       </field>
       <field>
         <name>recruitmentagency</name>
-        <rename/>
       </field>
       <field>
         <name>id_2</name>
-        <rename/>
       </field>
       <field>
         <name>name_1</name>
-        <rename/>
       </field>
       <field>
         <name>minumum</name>
-        <rename/>
       </field>
       <field>
         <name>maximum</name>
-        <rename/>
       </field>
       <field>
         <name>adresses</name>
-        <rename/>
       </field>
       <field>
         <name>type</name>
-        <rename/>
       </field>
       <field>
         <name>id_3</name>
-        <rename/>
       </field>
       <field>
         <name>name_2</name>
-        <rename/>
       </field>
       <field>
         <name>metadata</name>
-        <rename/>
       </field>
       <field>
         <name>locations</name>
-        <rename/>
       </field>
       <field>
         <name>minumum_1</name>
-        <rename/>
       </field>
       <field>
         <name>maximum_1</name>
-        <rename/>
       </field>
       <field>
         <name>positions</name>
-        <rename/>
       </field>
       <field>
         <name>educations</name>
-        <rename/>
       </field>
       <field>
         <name>parameters</name>
-        <rename/>
       </field>
       <field>
         <name>type_1</name>
-        <rename/>
       </field>
       <field>
         <name>id_4</name>
-        <rename/>
       </field>
       <field>
         <name>name_3</name>
-        <rename/>
       </field>
       <field>
         <name>source</name>
-        <rename/>
       </field>
       <field>
         <name>phrase</name>
-        <rename/>
       </field>
       <field>
         <name>level</name>
-        <rename/>
       </field>
       <field>
         <name>metadata_1</name>
-        <rename/>
       </field>
       <field>
         <name>position</name>
-        <rename/>
       </field>
       <field>
         <name>education</name>
-        <rename/>
       </field>
       <field>
         <name>country</name>
-        <rename/>
       </field>
       <field>
         <name>province</name>
-        <rename/>
       </field>
       <field>
         <name>district</name>
-        <rename/>
       </field>
       <field>
         <name>postalcode</name>
-        <rename/>
       </field>
       <field>
         <name>postalcodes</name>
-        <rename/>
       </field>
       <field>
         <name>metadata_1_new</name>
-        <rename/>
       </field>
       <field>
         <name>locations_new</name>
-        <rename/>
       </field>
       <field>
         <name>postalcodes_new</name>
-        <rename/>
       </field>
       <field>
         <name>addresses_new</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <remove>
@@ -1650,8 +1596,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>640</xloc>
-      <yloc>192</yloc>
+      <xloc>864</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1692,8 +1638,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>208</xloc>
-      <yloc>192</yloc>
+      <xloc>432</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1743,8 +1689,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>416</xloc>
-      <yloc>192</yloc>
+      <xloc>640</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1787,8 +1733,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>848</xloc>
-      <yloc>192</yloc>
+      <xloc>1072</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
