@@ -439,8 +439,8 @@
       <note>sector functions and fucntions not needed for exam 1, that's why only sorted for review data</note>
       <xloc>112</xloc>
       <yloc>352</yloc>
-      <width>505</width>
-      <heigth>26</heigth>
+      <width>616</width>
+      <heigth>30</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -458,14 +458,14 @@
     </notepad>
   </notepads>
   <connection>
-    <name>Spoon</name>
-    <server>127.0.0.1</server>
+    <name>etl03_stage_local</name>
+    <server>localhost</server>
     <type>MYSQL</type>
     <access>Native</access>
-    <database>mydb</database>
+    <database>etl03_stage_local</database>
     <port>3306</port>
     <username>root</username>
-    <password>Encrypted 2be98af8f5cc580d5ae15f8508cc2fd8a</password>
+    <password>Encrypted 2be98afc86ae39b89a20dbc7993c3fd89</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -669,7 +669,7 @@
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>C:\Users\imhof\ownCloud\MSc IDS\ETL03 Modern Data Engineering in the Cloud\etl03_modern_data_engineering\exam 1\data\tm_X28_Companies.xlsx</name>
+      <name>C:\Users\simub\switchdrive\Private\HS21\ETL03 Modern Data Engineering\Github\etl03_modern_data_engineering\exam 1\data\tm_X28_Companies.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -804,12 +804,7 @@
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name/>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-      <name>C:\Users\imhof\ownCloud\MSc IDS\ETL03 Modern Data Engineering in the Cloud\etl03_modern_data_engineering\exam 1\data\tm_tp_companies_sectors.xlsx</name>
+      <name>C:\Users\simub\switchdrive\Private\HS21\ETL03 Modern Data Engineering\Github\etl03_modern_data_engineering\exam 1\data\tm_tp_companies_sectors.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -980,7 +975,7 @@
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>C:\Users\imhof\ownCloud\MSc IDS\ETL03 Modern Data Engineering in the Cloud\etl03_modern_data_engineering\exam 1\data\tm_X28_Functions.xlsx</name>
+      <name>C:\Users\simub\switchdrive\Private\HS21\ETL03 Modern Data Engineering\Github\etl03_modern_data_engineering\exam 1\data\tm_X28_Functions.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -1103,7 +1098,7 @@
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>C:\Users\imhof\ownCloud\MSc IDS\ETL03 Modern Data Engineering in the Cloud\etl03_modern_data_engineering\exam 1\data\tm_tp_sectors_functions.xlsx</name>
+      <name>C:\Users\simub\switchdrive\Private\HS21\ETL03 Modern Data Engineering\Github\etl03_modern_data_engineering\exam 1\data\tm_tp_sectors_functions.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -1427,7 +1422,7 @@
     </remotesteps>
     <GUI>
       <xloc>864</xloc>
-      <yloc>64</yloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1594,8 +1589,8 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>Spoon</connection>
-    <schema>mydb</schema>
+    <connection>etl03_stage_local</connection>
+    <schema/>
     <table>companies_sectors</table>
     <commit>1000</commit>
     <truncate>Y</truncate>
@@ -1638,8 +1633,8 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>Spoon</connection>
-    <schema>mydb</schema>
+    <connection>etl03_stage_local</connection>
+    <schema/>
     <table>companies</table>
     <commit>1000</commit>
     <truncate>Y</truncate>
